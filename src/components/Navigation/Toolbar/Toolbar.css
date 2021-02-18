@@ -1,0 +1,45 @@
+.Toolbar {
+height: 55px;
+width: 100%;
+
+position: fixed; 
+left: 0;
+right: 0;
+z-index: 80;
+background-color:#cf8f2e;
+align-items: center;
+text-align: center;
+display: flex;
+justify-content: space-between;
+box-sizing: border-box;
+padding: 2%;
+color:black;
+margin-top: -55px;
+
+
+
+}
+.Item {
+    color:black
+}
+.Item:hover{
+     
+    cursor:pointer;
+    
+
+}
+
+.Toolbar nav {
+    height: 100%;
+}
+/* have to undeestsand media querries ,how they work*/
+
+@media(max-width:' 300px'){
+    .Toolbar{
+        height: 20px;
+        width: 20px;
+        background-color:black;
+    }
+
+
+}
